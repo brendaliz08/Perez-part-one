@@ -1,0 +1,79 @@
+*{
+  margin: 3;
+  padding: 0;
+  background: #F0ECEE;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.wrapper > * {
+  flex: 1 100%;
+}
+.img-dog {
+  display:none;
+}
+
+@media only screen and (min-width: 768px) {
+  .img-dog {
+    display:block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+
+
+
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+body{
+  font-family: 'Fira Sans', sans-serif;
+}
+p.Adopt { color:#000000;
+  font-weight:400;
+  font-family:'Fira Sans', sans-serif;
+ }
+span.Me { color:#FF4850;
+  font-weight:400;
+  font-family:'Fira Sans', sans-serif;
+}
+.menu li a
+{
+  text-decoration: none;
+  color: #88898B;
+  padding:10px
+  font-family:'Fira Sans', sans-serif;
+  letter-spacing: 2px;
+}
+ul li:hover
+{
+  background: #FF4850;
+}
+.menu li
+{
+  display: block;
+
+}
+h3{
+  color: #88898B;
+  font-weight: lighter;
+}
+
+.button {
+  background-color: #FF4850;
+  Border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 100%;
+}
+button:hover
+{
+  background: #CCC;
+}
